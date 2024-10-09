@@ -1,69 +1,73 @@
 body {
-  font-family: "Life Savers", serif;
-  font-weight: 400;
-  font-style: normal;
-  background-image: url('images/purp.jpg'); 
-  background-size: cover; 
-  background-attachment: fixed; 
-  background-position: center; 
-  color: white; 
-  text-align: center; 
-}
-
-.title {
-    margin: 2%;
-}
-
-.image-button-container {
+    font-family: "Life Savers", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url('images/purp.jpg'); 
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center; 
+    color: white; 
+    text-align: center; 
+  }
+  
+  .title {
+      margin: 2%;
+  }
+  
+  .image-button-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center; /* Center the buttons horizontally */
     align-items: center;
-  }
-  
- 
-.image-button {
-    position: relative;
-    border: none; 
-    background: none;
-    padding: 0; 
-    cursor: pointer; 
-    width: 300px;
-    height: 300px;
-    animation: float 3s ease-in-out infinite;
-  }
-  
-  .image-button img {
-    width: 100%; 
-    height: 100%; 
-  }
-  
-  .button-label {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 14px;
-    opacity: 0; 
-    transition: opacity 0.3s ease;
-  }
-  
-  .image-button:hover .button-label {
-    opacity: 1; 
-  }
+    margin-top: 50px; /* Adjust for spacing */
+}
 
-  @keyframes float {
-    0% {
-      transform: translateY(0);
+#learn-more {
+    padding-top: 150px; /* Adjust for overall spacing */
+}
+    
+   
+  .image-button {
+      position: relative;
+      border: none; 
+      background: none;
+      padding: 0; 
+      cursor: pointer; 
+      width: 300px;
+      height: 300px;
+      animation: float 3s ease-in-out infinite;
     }
-    50% {
-      transform: translateY(-15px); 
+    
+    .image-button img {
+      width: 100%; 
+      height: 100%; 
     }
-    100% {
-      transform: translateY(0);
+    
+    .button-label {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 14px;
+      opacity: 0; 
+      transition: opacity 0.3s ease;
     }
-  }
+    
+    .image-button:hover .button-label {
+      opacity: 1; 
+    }
   
+    @keyframes float {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-15px); 
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
