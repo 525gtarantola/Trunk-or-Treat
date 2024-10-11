@@ -71,3 +71,7 @@ body {
         transform: translateY(0);
       }
     }
+
+    .desc {
+      margin: 10px;
+    }
