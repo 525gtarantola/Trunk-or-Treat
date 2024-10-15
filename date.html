@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="style.css" />
 
     <style>
+      /* Your existing styles */
+
       .calendar {
         display: grid;
         grid-template-columns: repeat(7, 1fr);
@@ -134,6 +136,39 @@
       <div class="day">31</div>
     </div>
     <!-- End of Calendar Section -->
+
+    <!-- Event Details Section -->
+    <section class="event-details">
+      <div class="container">
+        <h2 class="text-center mb-4">Event Details</h2>
+
+        <div class="event">
+          <h3 class="event-heading">Event Start</h3>
+          <div class="event-info" style="display: none;">
+            <p>Join us for the Trunk or Treat event starting at <strong>4:00 PM</strong>.</p>
+            <img src="images/event-start.jpg" alt="Event Start" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="event">
+          <h3 class="event-heading">Event End</h3>
+          <div class="event-info" style="display: none;">
+            <p>The event will conclude at <strong>5:30 PM</strong>.</p>
+            <img src="images/event-end.jpg" alt="Event End" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="event">
+          <h3 class="event-heading">Cleanup</h3>
+          <div class="event-info" style="display: none;">
+            <p>Cleanup will take place from <strong>5:30 PM - 6:00 PM</strong>.</p>
+            <img src="images/cleanup.jpg" alt="Cleanup" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Event Details Section -->
+
     <div class="desc text-center">
       <h2>
         For further information, email
@@ -143,5 +178,11 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
   </body>
 </html>

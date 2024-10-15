@@ -20,8 +20,8 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-  $("#more-info-btn").on("click", function () {
-    $("#event-description").toggle(); // Toggles the visibility of the description
-    $(this).text($(this).text() === "More Info" ? "Less Info" : "More Info"); // Toggle button text
+  // Toggle event info on heading click
+  $(".event-heading").on("click", function () {
+    $(this).next(".event-info").slideToggle(); // Slide toggle the associated info
   });
 });
