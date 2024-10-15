@@ -1,5 +1,5 @@
 body {
-    font-family: "Life Savers", serif;
+  font-family: "Calistoga", serif;
     font-weight: 400;
     font-style: normal;
     background-image: url('images/purp.jpg'); 
@@ -9,6 +9,7 @@ body {
     color: white; 
     text-align: center; 
   }
+
   
   .title {
       margin: 2%;
@@ -18,13 +19,8 @@ body {
     display: flex;
     justify-content: center; /* Center the buttons horizontally */
     align-items: center;
-    margin-top: 50px; /* Adjust for spacing */
 }
 
-#learn-more {
-    padding-top: 150px; /* Adjust for overall spacing */
-}
-    
    
   .image-button {
       position: relative;
@@ -75,3 +71,17 @@ body {
     .desc {
       margin: 10px;
     }
+
+    .header {
+      color: black;
+    }
+
+    .trunk-or-treat {
+      font-family: 'Creepster', cursive; 
+      font-size: 7rem; 
+      color: #FF5722; 
+  }
+
+
+    
+    
