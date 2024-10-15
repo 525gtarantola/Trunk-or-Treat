@@ -23,7 +23,6 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css" />
-    <!-- Ensure style.css is in the same directory -->
   </head>
 
   <body>
@@ -32,7 +31,9 @@
     </div>
 
     <div class="title text-center">
-      <h1 class="trunk-or-treat">Trunk or Treat!</h1>
+      <a href="index.html" class="no-underline">
+        <h1 class="trunk-or-treat">Trunk or Treat!</h1>
+      </a>
     </div>
 
     <!-- Buttons -->
@@ -45,21 +46,15 @@
         </p>
         <div class="image-button-container">
           <a href="about.html" class="image-button">
-            <!-- Ensure about.html exists -->
             <img src="images/pumpkin-clipart.webp" alt="Button Image" />
-            <!-- Ensure image is in the images folder -->
             <span class="button-label">About the event</span>
           </a>
           <a href="date.html" class="image-button">
-            <!-- Ensure date.html exists -->
             <img src="images/witch.png" alt="Button Image" />
-            <!-- Ensure image is in the images folder -->
             <span class="button-label">Date and Time</span>
           </a>
           <a href="show.html" class="image-button">
-            <!-- Ensure show.html exists -->
             <img src="images/ghost.png" alt="Button Image" />
-            <!-- Ensure image is in the images folder -->
             <span class="button-label">Trunk showcase</span>
           </a>
         </div>
@@ -76,5 +71,11 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
   </body>
 </html>

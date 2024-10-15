@@ -132,27 +132,33 @@ body {
 
 .lightbox {
   display: none; /* Hidden by default */
-  position: fixed;
+  position: fixed; /* Stays fixed relative to the viewport */
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8); /* Dark overlay */
-  justify-content: center;
-  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8); /* Dark overlay background */
+  justify-content: center; /* Horizontally center the image */
+  align-items: center; /* Vertically center the image */
+  z-index: 1000; /* Ensure it is on top of other elements */
 }
 
 .lightbox-content {
   max-width: 90%;
-  max-height: 90%;
+  max-height: 90%; /* Ensures the image fits within the viewport */
+  border: 5px solid white; /* Optional: Add a border around the image */
 }
 
 .close {
   position: absolute;
   top: 20px;
-  right: 30px;
-  font-size: 40px;
+  right: 20px;
   color: white;
+  font-size: 30px;
   cursor: pointer;
+}
+
+.no-underline {
+  text-decoration: none;
 }
     
