@@ -82,6 +82,28 @@ body {
       color: #FF5722; 
   }
 
+  .blurb {
+    background-color: #f8f9fa;
+    border: 2px solid #ff5722;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    font-family: 'Calistoga', cursive;
+    color: #333;
+    text-align: center;
+    margin-left: 5%; 
+    margin-right: 5%; 
+}
 
-    
+.blurb p {
+    font-size: 2rem; /* Adjusted to a larger size */
+    line-height: 2;
+}
+
+.blurb:hover {
+    background-color: #ffe0b2;
+    transition: background-color 0.3s;
+}
+
     
