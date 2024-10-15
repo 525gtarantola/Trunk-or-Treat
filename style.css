@@ -118,8 +118,8 @@ body {
 }
 
 .gallery-item {
-  width: 300px; /* Increase width */
-  height: 400px; /* Increase height */
+  width: 450x; /* Increase width */
+  height: 550px; /* Increase height */
   margin: 10px;
   cursor: pointer;
   transition: transform 0.2s;
